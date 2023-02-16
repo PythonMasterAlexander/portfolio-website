@@ -1,3 +1,10 @@
 main {
+  background: $main-white-color;
+  border-radius: 5px;
   color: $main-white-color;
+  @include responsive-container;
+
+  h1 {
+    color: $main-black-color;
+  }
 }
