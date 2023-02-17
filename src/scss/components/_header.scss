@@ -1,4 +1,25 @@
-header {
+header, header a {
   color: $main-white-color;
-  height: 500px;
+}
+
+header {
+  height: 1000px;
+
+  button {
+    background: none; 
+    cursor: pointer;
+  }
+
+  a {
+    font-size: 37px;
+    display: block;
+  }
+
+  nav {
+    display: flex;
+  }
+}
+
+.link-container {
+  display: none;
 }
