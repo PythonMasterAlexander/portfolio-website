@@ -4,6 +4,7 @@ header, header a {
 
 header {
   height: 1000px;
+  @include responsive-container;
 
   button {
     background: none; 
@@ -14,12 +15,15 @@ header {
     font-size: 37px;
     display: block;
   }
-
-  nav {
-    display: flex;
-  }
 }
 
-.link-container {
+.menu-button-container {
+}
+
+.menu-button-container rect {
+  fill: $main-white-color;
+}
+
+.toggle-menu-button {
   display: none;
 }

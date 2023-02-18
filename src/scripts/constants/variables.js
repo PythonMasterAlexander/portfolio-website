@@ -1,2 +1,2 @@
-export const menuIcon = document.querySelector(".menu-icon");
-export const linkContainer = document.querySelector(".link-container");
+export const headerMenuButton = document.querySelector(".menu-button-container");
+export const linkContainer = document.querySelector(".toggle-menu-button");
