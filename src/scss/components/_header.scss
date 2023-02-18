@@ -7,7 +7,7 @@ header {
   @include responsive-container;
 
   button {
-    background: none; 
+    background: transparent;
     cursor: pointer;
   }
 
@@ -17,11 +17,16 @@ header {
   }
 }
 
-.menu-button-container {
+svg rect {
+  fill: $main-white-color;
 }
 
-.menu-button-container rect {
-  fill: $main-white-color;
+button:hover > svg > rect {
+  fill: $active-link-color;
+}
+
+.change-color-on-button {
+  fill: $active-link-color;
 }
 
 .toggle-menu-button {
