@@ -4,9 +4,10 @@ header, header a {
 
 header {
   height: 1000px;
+  @include responsive-container;
 
   button {
-    background: none; 
+    background: transparent;
     cursor: pointer;
   }
 
@@ -14,12 +15,20 @@ header {
     font-size: 37px;
     display: block;
   }
-
-  nav {
-    display: flex;
-  }
 }
 
-.link-container {
+svg rect {
+  fill: $main-white-color;
+}
+
+button:hover > svg > rect {
+  fill: $active-link-color;
+}
+
+.change-color-on-button {
+  fill: $active-link-color;
+}
+
+.toggle-menu-button {
   display: none;
 }

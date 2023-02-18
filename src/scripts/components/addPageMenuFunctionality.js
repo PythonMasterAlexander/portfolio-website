@@ -1,8 +1,12 @@
-import { menuIcon, linkContainer } from '../constants/variables.js';
+import { headerMenuButton, linkContainer, menuIconBars } from '../constants/variables.js';
 
 function addPageMenuFunctionality() {
-  menuIcon.addEventListener("click", () => {
-    linkContainer.classList.toggle("link-container");
+  headerMenuButton.addEventListener("click", () => {
+    linkContainer.classList.toggle("toggle-menu-button");
+
+    menuIconBars.forEach(iconBar => {
+      iconBar.classList.toggle("change-color-on-button");
+    });
   });
 }
 export default addPageMenuFunctionality;
