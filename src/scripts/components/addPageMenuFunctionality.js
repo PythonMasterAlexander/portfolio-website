@@ -2,11 +2,8 @@ import { headerMenuButton, linkContainer, menuIconBars } from '../constants/vari
 
 function addPageMenuFunctionality() {
   headerMenuButton.addEventListener("click", () => {
+    console.log(headerMenuButton);
     linkContainer.classList.toggle("toggle-menu-button");
-
-    menuIconBars.forEach(iconBar => {
-      iconBar.classList.toggle("change-color-on-button");
-    });
   });
 }
 export default addPageMenuFunctionality;

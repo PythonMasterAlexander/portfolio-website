@@ -7,8 +7,15 @@ header {
   @include responsive-container;
 
   button {
-    background: transparent;
+    align-items: center;
+    background: red;
+    border-radius: 100%;
     cursor: pointer;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    transition: transform 0.1s ease-in-out;
+    width: 100px;
   }
 
   a {
@@ -17,12 +24,18 @@ header {
   }
 }
 
-svg rect {
-  fill: $main-white-color;
+.menu-icon {
+  height: 40%;
+  width: 40%;
 }
 
-button:hover > svg > rect {
-  fill: $active-link-color;
+button:hover {
+  transform: scale(1.1);
+}
+
+svg rect {
+  fill: $main-white-color;
+  rx: 2px;
 }
 
 .change-color-on-button {
