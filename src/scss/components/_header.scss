@@ -25,22 +25,11 @@ header {
 }
 
 .menu-icon {
-  height: 50%;
-  fill: $main-white-color;
-  width: 50%;
-}
 
-.fallback-logo-svg {
-  font-size: 80px;
 }
 
 button:hover {
   transform: scale(1.1);
-}
-
-svg rect {
-  fill: $main-white-color;
-  rx: 2px;
 }
 
 .change-color-on-button {
@@ -51,9 +40,5 @@ svg rect {
   display: none;
 }
 
-@media (max-width: 834px) {
-  header button {
-    height: 60px;
-    width: 60px;
-  }
+
 }

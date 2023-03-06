@@ -6,6 +6,10 @@ body, html, .page-wrapper {
   height: 100%;
 }
 
+body, html {
+  width: 100%;
+}
+
 * {
   border: 0;
   box-sizing: border-box;
@@ -14,9 +18,7 @@ body, html, .page-wrapper {
 }
 
 html {
-  background-image: url("../../resources/background-image-5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: $background-color;
 }
 
 :root {
