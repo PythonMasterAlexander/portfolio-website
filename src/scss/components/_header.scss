@@ -8,7 +8,7 @@ header {
 
   button {
     align-items: center;
-    background: red;
+    background: $main-red-color;
     border-radius: 100%;
     cursor: pointer;
     display: flex;
@@ -25,9 +25,7 @@ header {
 }
 
 .menu-icon {
-  height: 40%;
-  width: 40%;
-  fill: $main-white-color;
+
 }
 
 button:hover {
@@ -42,10 +40,5 @@ button:hover {
   display: none;
 }
 
-#twitter-icon-path {
-  stroke: $icon-stroke-main-color;
-}
 
-#menu-icon-path rect {
-  rx: 5px;
 }
