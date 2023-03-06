@@ -27,15 +27,11 @@ header {
 .menu-icon {
   height: 40%;
   width: 40%;
+  fill: $main-white-color;
 }
 
 button:hover {
   transform: scale(1.1);
-}
-
-svg rect {
-  fill: $main-white-color;
-  rx: 2px;
 }
 
 .change-color-on-button {
@@ -44,4 +40,12 @@ svg rect {
 
 .toggle-menu-button {
   display: none;
+}
+
+#twitter-icon-path {
+  stroke: $icon-stroke-main-color;
+}
+
+#menu-icon-path rect {
+  rx: 5px;
 }
