@@ -24,8 +24,9 @@ header {
   }
 }
 
-.menu-icon {
-
+svg {
+  width: 40%;
+  height: 40%;
 }
 
 button:hover {
@@ -40,5 +41,7 @@ button:hover {
   display: none;
 }
 
-
+#menu-icon-path rect {
+  fill: $main-white-color;
+  rx: 2px; 
 }

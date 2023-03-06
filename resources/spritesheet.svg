@@ -10,10 +10,10 @@
       stroke="#FF0000" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
 
-    <symbol id="menu-icon-path">
+    <symbol viewBox="0 0 50 55" id="menu-icon-path">
       <rect y="0" width="50" height="10"/>
       <rect y="22.5" width="50" height="10"/>
       <rect y="45" width="50" height="10"/>
     </symbol>
-  </defs>
+</defs>
 </svg>
