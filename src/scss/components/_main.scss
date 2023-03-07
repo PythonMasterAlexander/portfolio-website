@@ -1,4 +1,28 @@
 main {
   border-radius: 5px;
   @include responsive-main-footer-layout();
+
+  input {
+    display: block;
+  }
+}
+
+.button-container {
+  background: $main-red-color;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 0 hsla(0, 0%, 55%, 1);
+  margin: 0 auto;
+  padding: 16px 48px;
+  width: fit-content;
+}
+
+.card-container-styling {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0.5px hsla(0, 0%, 55%, 1);
+  padding: 24px 36px;
+  margin: 50px 0;
+}
+
+.test {
+  transform: scaleY(1, 1.5);
 }

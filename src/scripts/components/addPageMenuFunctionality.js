@@ -3,7 +3,6 @@ import { socialMediaContainer, headerMenuButton, linkContainer, menuIconBars } f
 function addPageMenuFunctionality() {
   headerMenuButton.addEventListener("click", () => {
     linkContainer.classList.toggle("toggle-menu-button");
-    console.log(socialMediaContainer);
     socialMediaContainer.classList.toggle("toggle-social-media-container");
   });
 }

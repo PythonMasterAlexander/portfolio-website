@@ -16,38 +16,121 @@
 <body id="about-page">
   <div class="page-wrapper">
     <header>
-      <nav>
+      <nav aria-label="Main">
         <button class="menu-button" type="button">
-          <svg class="menu-icon" viewBox="0 0 50 55">
-            <rect y="0" width="50" height="10"/>
-            <rect y="22.5" width="50" height="10"/>
-            <rect y="45" width="50" height="10"/>
+          <svg class="menu-icon-styling">
+            <use xlink:href="./resources/spritesheet.svg#menu-icon"></use>
           </svg>
         </button>
         <div class="toggle-menu-button">
-          <a href="index.html">Home</a>
-          <a href="about.html">Me</a>
+          <a href="index.html">home</a>
+          <a href="work.html">work</a>
         </div>
       </nav>
-      <div>
-        <object class="logo-svg" data="./resources/main-logo.svg" type="image/svg+xml">
-          <h1 class="fallback-logo-svg">Welcome !</h1>
-        </object>
+      <div class="header-social-media-container">
+        <span>Social Media</span>
+        <svg class="linkedin-icon-styling">
+          <use xlink:href="./resources/spritesheet.svg#linkedin-icon"></use>
+        </svg>
+        <svg class="discord-icon-styling">
+          <use xlink:href="./resources/spritesheet.svg#discord-icon"></use>
+        </svg>
+        <svg class="instagram-icon-styling">
+          <use xlink:href="./resources/spritesheet.svg#instagram-icon"></use>
+        </svg>
+        <svg class="twitter-icon-styling">
+          <use xlink:href="./resources/spritesheet.svg#twitter-icon"></use>
+        </svg>
       </div>
-      <div>
-        <span>On social media</span>
-        <a href="index.html"></a>
-      </div>
-      <div>
-        <div>
-          <a href="work.html"></a>
-        </div>
+      <div class="header-logo-container">
+        <svg class="welcome-logo-styling">
+          <use xlink:href="./resources/spritesheet.svg#welcome-page-logo"></use>
+        </svg>
       </div>
     </header>
     <main>
+      <h1>My Projects</h1>
+      <section class="card-container-styling">
+        <hgroup>
+          <h2>Noroff Project Semester 2</h2>
+          <h3>Goal</h3>
+        </hgroup>
+        <p>To create an e-commerce website that has both customer-facing and admin sections. Both sections should be responsive and 
+        the website will be populated by a Strapi API supplied by Noroff.</p>
+        <h4>By Alexander Hardeland</h4>
+        <div class="button-container">
+          <a href="">link</a>
+        </div>
+      </section>
+      <section class="card-container-styling">
+        <hgroup>
+          <h2>Noroff JavaScript Course Assignment</h2>
+          <h3>Goal</h3>
+        </hgroup>
+        <p>Build a front-end for an API, provided by Noroff.</p>
+        <h4>By Alexander Hardeland</h4>
+        <div class="button-container">
+          <a href="">link</a>
+        </div>
+      </section>
+      <section class="card-container-styling">
+        <hgroup>
+          <h2>Noroff Project Exam 1</h2>
+          <h3>Goal</h3>
+        </hgroup>
+        <p>Build a microsite for SpaceX or NASA. This should focus on space technology.</p>
+        <h4>By Alexander Hardeland</h4>
+        <div class="button-container">
+          <a href="">link</a>
+        </div>
+      </section>
+      <section class="card-container-styling">
+        <hgroup>
+          <h2>Noroff Html & Css Course Assignment</h2>
+          <h3>Goal</h3>
+        </hgroup>
+        <p>Build an HTML website for a company called 'Re-cycle' that offer eco-friendly, guided cycling tours of a town. 
+        Because their clients are travelling, it is very important that the website is mobile responsive.</p>
+        <h4>By Alexander Hardeland</h4>
+        <div class="button-container">
+          <a href="">link</a>
+        </div>
+      </section>
+      <section class="card-container-styling">
+        <form action="" methode="post">
+          <fieldset>
+            <legend>Contact</legend>
+            <div>
+              <label for="">Send me a message</label>
+              <input type="">
+            </div>
+            <div class="button-container message-button">
+              <button name="submit-message" name="submit">send</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
   </div> 
   <footer>
+    <nav aria-label="Footer">
+      <a href="index.html">home</a>
+      <a href="work.html">work</a>
+    </nav>
+    <div>
+      <svg class="linkedin-icon-styling">
+        <use xlink:href="./resources/spritesheet.svg#linkedin-icon"></use>
+      </svg>
+      <svg class="discord-icon-styling">
+        <use xlink:href="./resources/spritesheet.svg#discord-icon"></use>
+      </svg>
+      <svg class="instagram-icon-styling">
+        <use xlink:href="./resources/spritesheet.svg#instagram-icon"></use>
+      </svg>
+      <svg class="twitter-icon-styling">
+        <use xlink:href="./resources/spritesheet.svg#twitter-icon"></use>
+      </svg>
+    </div>
   </footer>
 </body>
 </html>
