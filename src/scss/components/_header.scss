@@ -41,7 +41,11 @@ button:hover {
   display: none;
 }
 
-#menu-icon-path rect {
+.welcome-logo-styling {
+  width: 900px;
+}
+
+#menu-icon rect {
   fill: $main-white-color;
   rx: 2px; 
 }
