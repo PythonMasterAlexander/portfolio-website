@@ -1,4 +1,4 @@
 main {
   border-radius: 5px;
-  color: $main-white-color;
+  @include responsive-main-footer-layout();
 }

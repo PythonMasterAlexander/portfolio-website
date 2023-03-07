@@ -7,7 +7,12 @@ body, html, .page-wrapper {
 }
 
 body, html {
-  width: 100%;
+  @include responsive-page-layout();
+  background: $background-color;
+}
+
+body, a {
+  color: $main-white-color;
 }
 
 * {
@@ -15,10 +20,6 @@ body, html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html {
-  background: $background-color;
 }
 
 :root {

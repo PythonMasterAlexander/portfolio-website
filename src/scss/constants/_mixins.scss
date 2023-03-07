@@ -1,5 +1,11 @@
-@mixin responsive-container() {
-  width: 100%;
+@mixin responsive-page-layout() {
+  width: 90%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+@mixin responsive-main-footer-layout() {
+  width: 70%;
   padding: 0 24px;
   margin: 0 auto;
 }

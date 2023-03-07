@@ -1,10 +1,12 @@
-header, header a {
-  color: $main-white-color;
-}
-
 header {
-  height: 1000px;
-  @include responsive-container;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  a {
+    font-size: 37px;
+    display: block;
+  }
 
   button {
     align-items: center;
@@ -17,16 +19,14 @@ header {
     transition: transform 0.1s ease-in-out;
     width: 100px;
   }
-
-  a {
-    font-size: 37px;
-    display: block;
-  }
 }
 
-svg {
-  width: 40%;
-  height: 40%;
+.linkedin-icon-styling, .discord-icon-styling, .instagram-icon-styling, .twitter-icon-styling {
+  width: 30px;
+} 
+
+.header-logo-container {
+  flex-basis: 100%;
 }
 
 button:hover {
@@ -37,12 +37,19 @@ button:hover {
   fill: $active-link-color;
 }
 
-.toggle-menu-button {
+.toggle-menu-button, .toggle-social-media-container {
   display: none;
 }
 
 .welcome-logo-styling {
-  width: 900px;
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.menu-icon-styling {
+  width: 40%;
+  height: 40%;
 }
 
 #menu-icon rect {
