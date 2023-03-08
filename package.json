@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server",
-    "prettier": "prettier --write src/scripts/**/*.js"
+    "prettier": "prettier --write src/scripts/**/*.js",
+    "start": "tsc --watch"
   },
   "author": "Alexander Hardeland",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "eslint": "^8.34.0",
     "live-server": "^1.2.2",
     "prettier": "^2.8.4",
-    "sass": "^1.58.0"
+    "sass": "^1.58.0",
+    "typescript": "^4.9.5"
   }
 }
