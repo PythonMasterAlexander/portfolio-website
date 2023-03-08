@@ -29,6 +29,10 @@ header {
   flex-basis: 100%;
 }
 
+.message-container h3 {
+  text-align: center;
+}
+
 button:hover {
   transform: scale(1.1);
 }

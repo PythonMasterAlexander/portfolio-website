@@ -1,15 +1,41 @@
 main {
-  border-radius: 5px;
+  border-radius: $border-radius-value;
   @include responsive-main-footer-layout();
 
-  input {
+  input, textarea {
     display: block;
+  }
+
+  textarea {
+    background: $background-color;
+    border-radius: $border-radius-value;
+    border: 0.5px solid $main-white-color;
+    color: $main-white-color;
+    padding: 12px;
+    min-height: 200px;
+    width: 100%;
+  }
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  gap: 24px;
+
+  &__main-link, h2 {
+    flex-basis: 100%;
+  }
+
+  &__link {
+    flex: 1;
   }
 }
 
 .button-container {
   background: $main-red-color;
-  border-radius: 10px;
+  border-radius: $border-radius-value;
   box-shadow: 3px 3px 1px 0 hsla(0, 0%, 55%, 1);
   margin: 0 auto;
   padding: 16px 48px;
@@ -26,8 +52,7 @@ main {
 }
 
 .card-container-styling {
-  border-radius: 10px;
+  border-radius: $border-radius-value;
   box-shadow: 0 5px 10px 0.5px hsla(0, 0%, 55%, 1);
   padding: 24px 36px;
-  margin: 50px 0;
 }
