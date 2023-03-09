@@ -1,5 +1,14 @@
 footer {
+  @include responsive-main-footer-layout();
+  align-items: center;
   display: flex;
   flex-shrink: 0;
-  @include responsive-main-footer-layout();
+  justify-content: space-between;
+
+  a {
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding-right: 24px;
+  }
+
 }
