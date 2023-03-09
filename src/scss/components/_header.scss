@@ -2,10 +2,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 96px;
+  padding-top: 96px;
 
   a {
-    font-size: 37px;
     display: block;
+    font-size: 28px;
   }
 
   button {

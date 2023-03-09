@@ -11,8 +11,9 @@ body, html {
   background: $background-color;
 }
 
-body, a {
-  color: $main-white-color;
+a, button {
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 * {
@@ -27,18 +28,23 @@ body, a {
 }
 
 body {
+  color: $main-white-color;
   display: flex;
   flex-direction: column;
   font-family: 'Quicksand', sans-serif;
 }
 
-a, button {
-  text-decoration: none;
-  text-transform: uppercase;
+a {
+  color: $main-white-color;
 }
+
 button {
   color: $main-white-color;
   background-color: transparent;
+}
+
+.button-container a, .button-container button {
+  color: $main-black-color;
 }
 
 #logo-style {

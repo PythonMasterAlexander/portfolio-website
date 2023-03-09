@@ -1,6 +1,11 @@
 main {
   border-radius: $border-radius-value;
   @include responsive-main-footer-layout();
+  margin-bottom: 150px;
+
+  article, section {
+    margin-bottom: 84px;
+  }
 }
 
 .link-container {
@@ -8,7 +13,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
-  gap: 24px;
+  gap: 36px;
 
   &__main-link, h2 {
     flex-basis: 100%;
@@ -37,7 +42,7 @@ main {
 }
 
 .button-container {
-  background: $main-red-color;
+  background: $secondary-red-color;
   border-radius: $border-radius-value;
   box-shadow: 3px 3px 1px 0 hsla(0, 0%, 55%, 1);
   margin: 0 auto;
