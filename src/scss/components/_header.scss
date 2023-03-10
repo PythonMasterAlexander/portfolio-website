@@ -3,8 +3,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 6rem;
-  padding-top: 6rem;
+  padding-block: clamp(1rem, 10vw, 6rem);
 
   a {
     display: block;
@@ -61,8 +60,11 @@ button:hover {
 .welcome-logo-styling {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  /*
+  width: 90%;
   max-width: 50rem;
+  */
+  width: clamp(10rem, 50vw, 50rem);
 }
 
 .menu-icon-styling {
@@ -73,4 +75,15 @@ button:hover {
 #menu-icon rect {
   fill: $main-white-color;
   rx: 2px; 
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
 }

@@ -1,7 +1,7 @@
 main {
   border-radius: $border-radius-value;
   @include responsive-main-footer-layout();
-  margin-bottom: 9rem;
+  padding-bottom: 9rem;
 
   article, section {
     margin-bottom: 7.5rem;
@@ -91,6 +91,10 @@ main {
     min-height: 12rem;
     width: 100%;
   }
+}
+
+.message-container-home-page {
+  margin-bottom: 0;
 }
 
 .card-container-styling {
