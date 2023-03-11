@@ -3,7 +3,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-block: clamp(1rem, 10vw, 6rem);
+  padding-block: clamp(1rem, 5vw, 6rem);
 
   a {
     display: block;
@@ -60,11 +60,7 @@ button:hover {
 .welcome-logo-styling {
   display: block;
   margin: 0 auto;
-  /*
-  width: 90%;
-  max-width: 50rem;
-  */
-  width: clamp(10rem, 60vw, 60rem);
+  width: clamp(10rem, 60vw + 1rem, 60rem);
 }
 
 .menu-icon-styling {
