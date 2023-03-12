@@ -6,9 +6,14 @@ footer {
   justify-content: space-between;
 
   a {
-    font-size: 1.75rem;
+    font-size: clamp(1rem, 1vw + 1rem, 1.75rem);
     font-weight: 300;
-    padding-right: 24px;
+    padding-right: 1.5rem;
   }
+}
 
+@media (max-width: 640px) {
+  footer {
+    flex-direction: column;
+  }
 }

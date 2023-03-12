@@ -3,8 +3,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 96px;
-  padding-top: 96px;
+  padding-block: clamp(1rem, 5vw, 6rem);
 
   a {
     display: block;
@@ -31,10 +30,10 @@ button:hover {
 .header-social-media-container {
   align-items: center;
   display: flex;
-  gap: 18px;
+  gap: 1.1rem;
 
   span {
-    padding-right: 36px;
+    padding-right: 2rem;
   }
 }
 
@@ -61,7 +60,7 @@ button:hover {
 .welcome-logo-styling {
   display: block;
   margin: 0 auto;
-  width: 700px;
+  width: clamp(10rem, 60vw + 1rem, 60rem);
 }
 
 .menu-icon-styling {
@@ -72,4 +71,15 @@ button:hover {
 #menu-icon rect {
   fill: $main-white-color;
   rx: 2px; 
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
 }
