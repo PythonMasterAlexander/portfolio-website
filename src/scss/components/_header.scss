@@ -53,8 +53,12 @@ button:hover {
   fill: $active-link-color;
 }
 
-.toggle-menu-button, .toggle-social-media-container {
+.page-menu-container, .toggle-social-media-container {
   display: none;
+}
+
+.show-page-menu-container {
+  display: block;
 }
 
 .welcome-logo-styling {
