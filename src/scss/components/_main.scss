@@ -154,6 +154,10 @@ main {
     @include responsve-main-mobile-layout();
   }
 
+  ul {
+    text-align: center;
+  }
+
   .card-container-styling {
     box-shadow: none;
     padding: 1.5rem 0;

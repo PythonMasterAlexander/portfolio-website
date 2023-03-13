@@ -27,6 +27,15 @@ button:hover {
   transform: scale(1.1);
 }
 
+svg:hover {
+  cursor: pointe;
+  fill: white;
+}
+
+svg:active {
+  fill: $main-red-color;
+}
+
 .header-social-media-container {
   align-items: center;
   display: flex;
