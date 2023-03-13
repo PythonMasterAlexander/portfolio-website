@@ -65,9 +65,14 @@ main {
     font-size: clamp(1.3rem, 1vw + 1vw, 1.75rem);
   }
 
+  img {
+    display: block;
+    margin: 1.5rem auto;
+    width: min(15vw, 8rem);
+  }
+
   article p {
     font-size: clamp(1.3rem, 1vw + 2vw, 2.313rem);
-    margin-bottom: min(10vw, 7.5rem);
   }
 }
 
