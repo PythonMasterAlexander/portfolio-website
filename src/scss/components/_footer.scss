@@ -10,9 +10,14 @@ footer {
     font-weight: 300;
     padding-right: 1.5rem;
   }
+
+  .footer-social-media-container {
+    display: flex;
+    gap: 1.1rem;
+  }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 650px) {
   footer {
     flex-direction: column;
   }
