@@ -74,6 +74,10 @@ main {
   article p {
     font-size: clamp(1.3rem, 1vw + 2vw, 2.313rem);
   }
+
+  form p {
+    color: red;
+  }
 }
 
 .link-container {
@@ -121,6 +125,34 @@ main {
   border-radius: $border-radius-value;
   box-shadow: 0 5px 10px 0.5px hsla(0, 0%, 55%, 1);
   padding: 1.5rem 2rem;
+}
+
+.card-graphic-container {
+  border-radius: $border-radius-value;
+  border: solid $border-radius-value $main-white-color;
+  margin: 1rem auto;
+  width: 75%;
+
+  figcaption {
+    background: $main-white-color;
+    color: $main-black-color;
+    font-weight: 700;
+    padding-block: 0.5rem;
+  }
+
+  #noroff-semester-project-two, #noroff-javascript-course-assignment, #project-exam-one, #html_css-course-assignment{
+    margin: 0;
+    padding: 0.5rem;
+    width: min(100vw, 100%);
+  }
+
+  .circle {
+    background: $main-red-color;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+  }
 }
 
 .card-footer {
