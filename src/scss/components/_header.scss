@@ -13,13 +13,13 @@ header {
   button {
     align-items: center;
     background: $main-red-color;
-    border-radius: 100%;
+    border-radius: 50%;
     cursor: pointer;
     display: flex;
-    height: 100px;
     justify-content: center;
     transition: transform 0.1s ease-in-out;
-    width: 100px;
+    width: min(100px, 100%);
+    height: 100px;
   }
 }
 
@@ -40,10 +40,6 @@ svg:active {
   align-items: center;
   display: flex;
   gap: 1.1rem;
-
-  span {
-    padding-right: 2rem;
-  }
 }
 
 .linkedin-icon-styling, .discord-icon-styling, .instagram-icon-styling, .twitter-icon-styling, .right-arrow-icon-styling {
@@ -63,7 +59,7 @@ svg:active {
   fill: $active-link-color;
 }
 
-.page-menu-container, .toggle-social-media-container {
+.page-menu-container, .toggle-social-media-container, .turn-display-on-off {
   display: none;
 }
 
@@ -107,7 +103,17 @@ svg:active {
     flex-wrap: nowrap;
   }
 
+  header button {
+    background: none;
+    justify-content: flex-start;
+  }
+
   .hide-on-mobile {
     display: none;
+  }
+
+  .page-menu-container a {
+    display: inline-block;
+    padding-right: 1rem;
   }
 }
