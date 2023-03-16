@@ -10,7 +10,7 @@ const openMainMenu = function(event: MouseEvent | TouchEvent) {
   if (windowInnerWidth <= maxMediaQueryBreakPointValue) {
     //Remove logo container when user toggle menu
     headerLogoContainer.classList.toggle("turn-display-on-off");
-    mainMenuButton.style.justifyContent = "center";
-  }
+    mainMenuButton.classList.toggle("turn-on-of-justify-content-center");
+  } 
 }
 export default openMainMenu;
