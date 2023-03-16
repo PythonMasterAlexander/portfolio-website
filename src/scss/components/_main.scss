@@ -74,10 +74,6 @@ main {
   article p {
     font-size: clamp(1.3rem, 1vw + 2vw, 2.313rem);
   }
-
-  form p {
-    color: red;
-  }
 }
 
 .link-container {
@@ -98,6 +94,12 @@ main {
   &__link {
     flex: 1;
   }
+
+  &__link:hover, &--main-link:hover {
+    background: $main-red-color;
+    box-shadow: none;
+    cursor: pointer;
+  }
 }
 
 .message-container {
@@ -113,12 +115,22 @@ main {
     padding: 0.8rem;
     outline: 0;
     min-height: 12rem;
+    margin-bottom: 1.5rem;
     width: 100%;
   }
 }
 
 .message-container-home-page {
   margin-bottom: 0;
+}
+
+.email-text-styling {
+  text-transform: none;
+}
+
+.email-text-styling:hover {
+  text-decoration: underline;
+  text-decoration-color: $main-red-color;
 }
 
 .card-container-styling {
