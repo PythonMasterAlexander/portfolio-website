@@ -1,9 +1,9 @@
 <svg fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <symbol viewBox="0 0 50 55" id="menu-icon">
-      <rect y="0" width="50" height="10"/>
-      <rect y="22.5" width="50" height="10"/>
-      <rect y="45" width="50" height="10"/>
+      <rect fill="#fff" y="0" width="50" height="10"/>
+      <rect fill="#fff" y="22.5" width="50" height="10"/>
+      <rect fill="#fff" y="45" width="50" height="10"/>
     </symbol>
 
     <symbol viewBox="0 0 900 75" id="welcome-page-logo">

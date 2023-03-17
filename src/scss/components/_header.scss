@@ -74,7 +74,7 @@ svg:active {
 }
 
 .keep-color-on-active-button-menu {
-  background-color: $secondary-red-color;
+  background-color: $secondary-red-color !important;
 }
 
 .show-page-menu-container a {
@@ -97,7 +97,6 @@ svg:active {
 }
 
 #menu-icon rect {
-  fill: $main-white-color;
   rx: 2px; 
 }
 
