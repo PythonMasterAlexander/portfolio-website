@@ -4,15 +4,14 @@
   "description": "Portfolio Website for Alexander Hardeland. This is where anybody interested can check out his work.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"tsc --watch\" \"live-server\" \"sass --watch src/scss:dist/css\"",
     "build": "sass src/scss:dist/css",
-    "watch": "sass --watch src/scss:dist/css & live-server",
-    "prettier": "prettier --write src/scripts/**/*.js",
-    "start": "tsc --watch"
+    "prettier": "prettier --write src/scripts/**/*.js"
   },
   "author": "Alexander Hardeland",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^8.1.0",
     "eslint": "^8.34.0",
     "live-server": "^1.2.2",
     "prettier": "^2.8.4",
