@@ -8,14 +8,12 @@
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server",
     "prettier": "prettier --write src/scripts/**/*.js",
-    "start": "tsc --watch",
-    "docs": ""
+    "start": "tsc --watch"
   },
   "author": "Alexander Hardeland",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.34.0",
-    "jsdoc": "^4.0.2",
     "live-server": "^1.2.2",
     "prettier": "^2.8.4",
     "sass": "^1.58.0",
