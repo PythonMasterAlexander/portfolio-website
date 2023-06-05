@@ -1,16 +1,17 @@
 {
   "source": {
-    "include": ["src"],
+    "include": ["./src/scripts/index.ts"],
     "exclude": ["node_modules"]
   },
   "plugins": [],
   "templates": {
     "cleverLinks": false,
-    "monospaceLinks": false
+    "monospaceLinks": false,
+    "plugins": ["plugins/typescript"] 
   },
   "opts": {
     "recurse": true,
-    "destination": "docs"
+    "destination": "./docs"
   }
 }
 

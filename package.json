@@ -8,7 +8,8 @@
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server",
     "prettier": "prettier --write src/scripts/**/*.js",
-    "start": "tsc --watch"
+    "start": "tsc --watch",
+    "docs": ""
   },
   "author": "Alexander Hardeland",
   "license": "ISC",
