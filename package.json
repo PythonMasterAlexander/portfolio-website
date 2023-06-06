@@ -6,13 +6,15 @@
   "scripts": {
     "start": "concurrently \"tsc --watch\" \"live-server\" \"sass --watch src/scss:dist/css\"",
     "build": "sass src/scss:dist/css",
-    "prettier": "prettier --write src/scripts/**/*.js"
+    "prettier": "prettier --write src/scripts/**/*.js",
+    "docs": "jsdoc ./src/scripts -r"
   },
   "author": "Alexander Hardeland",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.1.0",
     "eslint": "^8.34.0",
+    "jsdoc": "^4.0.2",
     "live-server": "^1.2.2",
     "prettier": "^2.8.4",
     "sass": "^1.58.0",
