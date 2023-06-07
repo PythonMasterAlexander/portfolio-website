@@ -8,10 +8,10 @@ node_modules/
 .log
 # Ignore .env files, these files can contain sensitive information
 .env
-# Ignore build/
+# Ignore ./build directory 
 build/
-# Ignore dist/
+# Ignore ./dist directory 
 dist/
-# 
+# Ignore ./docs directory 
 
 
